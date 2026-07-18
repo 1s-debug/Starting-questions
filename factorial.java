@@ -10,11 +10,11 @@ public class factorial {
         for(int i=1;i<=x;i++)
         {
            fact= fact*i;                        
-            System.out.print(i);         
+          /*  System.out.print(i);         
 
             if (i < x) {
                 System.out.print(" * ");
-                       }
+                       }*/
     }
          System.out.println(" = " +fact);
     }

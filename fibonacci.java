@@ -2,15 +2,16 @@ import java.util.Scanner;
 
 public class fibonacci {
     public static void main(String[] args) {
-        Scanner sc =new Scanner(System.in);
+        /*Scanner sc =new Scanner(System.in);
          System.out.print("enter the number : ");
-        int n= sc.nextInt();
+        int n= sc.nextInt();*/
+        int x=4;
         int a=0;
         int b=1; 
         System.out.print(a +" " );
         System.out.print(b+ " " );
 
-        for(int i=3;i<n;i++){                   
+        for(int i=3;i<=4;i++){                   
 
             int  c= a+b;     
            /* if(c > 13); 
